@@ -65,10 +65,13 @@
       line-height: 1.25;
     }
     h2 {
-      font-size: 2.4em;
+      font-size: 1.6em;
       font-weight: 300;
       letter-spacing: .1em;
-      line-height: 1em;
+      line-height: 1.2;
+    }
+    p {
+      line-height: 1.5;
     }
     .main-container {
       background: url(http://41.media.tumblr.com/af76291bd31b0fa6f0975db16b2c995c/tumblr_nlfglrnZMx1tuwd26o2_1280.jpg) no-repeat center center fixed; 
@@ -96,6 +99,7 @@
     }
     .box-center {
       text-align: center;
+      margin: 0 auto !important;
     }
     input[type="email"],
    input[type="text"] {
@@ -133,6 +137,23 @@
     .indicates-required {
       float: left;
       clear: both;
+      font-size: 80%;
+    }
+
+    .the-footer {
+      background: white;
+      color: gray;
+      text-align: center;
+      margin: 2em auto;
+      padding: 1em;
+    }
+
+    .the-footer a, .the-footer li {
+      color: gray;
+      text-align: center;
+      float: left;
+      margin: 0 2em;
+      text-decoration: none;
     }
   </style>
  </head>
@@ -141,7 +162,8 @@
     <img src="http://41.media.tumblr.com/218638145af6a37713fa89a6f9833738/tumblr_nlfglrnZMx1tuwd26o1_1280.png" alt="Casa Shakti" class="logo center">
     <div class="text-box">
       <h1>Recibe 3 clases de cortesía en Casa Shakti</h1>
-      <h2>Déja tu correo y recibe una invitación</h2>
+      <h2>Si aún no conoces Casa Shakti, deja tu correo y recibe una invitación a tomar 3 clases completamente gratis.</h2>
+      <p>50 cortesias disponibles. Válido hasta el 1 de mayo.</p>
     </div>
     <!-- Begin MailChimp Signup Form -->
     <div id="mc_embed_signup" class="box-center">
@@ -167,9 +189,16 @@
             <div class="actions"><input type="submit" value="Suscribir" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
             </div>
             <div class="indicates-required"><span class="asterisk">*</span>requerido</div>
-      </form>
+      </form><!--End mc_embed_signup-->
     </div>
-     <!--End mc_embed_signup-->
   </div>
+   <footer class="the-footer">
+    <li>Casa Shakti © 2015</li>
+    <li><a href="http://twitter.com/casashakti">Twitter</a></li>
+    <li><a href="http://facebook.com/casashakti">Facebook</a></li>
+    <li><a href="http://instagram.com/casashakti">Instagram</a></li>
+    <li><a href="http://soundcloud.com/casashakti">Soundcloud</a></li>
+    <li><a href="mailto:casashakti@gmail.com">Correo</a></li>
+   </footer>
  </body>
 </html>
